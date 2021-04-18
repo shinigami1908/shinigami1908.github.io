@@ -240,25 +240,30 @@ html {
   border-radius: 15%;
 }
 
-.cp{
-  margin: 0 auto;
-  width: 80vw;
+#cp-tile-1 {
+  grid-area: cp-1;
+}
+#cp-tile-2 {
+  grid-area: cp-2;
+}
+#cp-tile-3 {
+  grid-area: cp-3;
+}
+.cp-tile {
+  width: 400px;
+}
+#tile-grp {
+  height: 80vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "cp-1 cp-2"
+                       "cp-3 cp-3"
+                          ;
+                          
+  align-items: center;
+  justify-items: center;
 }
 
-
-#cp-image{
-  margin-top: 70px;
-  height: 175px;
-}
-
-#cp-image2{
-  margin-top: 100px;
-  margin-left: 78vh;
-  height: 175px;
-  margin-bottom: 100px;
-}
 
 .social{
   text-align: center;
