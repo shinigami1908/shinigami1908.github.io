@@ -269,3 +269,10 @@ html {
   text-align: center;
 }
 
+#footer-image{
+  align-items: center;
+  margin-top: 2.2vh;
+  margin-bottom: 20px;
+  height: 70px;
+}
+
