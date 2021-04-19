@@ -277,7 +277,25 @@ html {
 
 #footer-image {
   align-items: center;
-  margin-top: 2.2vh;
   margin-bottom: 20px;
-  height: 70px;
+  height: 75px;
+}
+
+#footer-image2 {
+  align-items: center;
+  margin-bottom: 20px;
+  height: 65px;
+}
+
+#footer-image3 {
+  align-items: center;
+  margin-bottom: 20px;
+  height: 63px;
+}
+
+.media{
+  margin-top: 8vh;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
