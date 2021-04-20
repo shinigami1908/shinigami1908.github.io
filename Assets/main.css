@@ -252,10 +252,22 @@ html {
 }
 
 #tech-image {
-  margin-left: 28px;
   width: 19vw;
   border-radius: 15%;
 }
+
+.box {
+  margin-left: 4.2vh;
+  transition: box-shadow .2s;
+  width: 19vw;
+  border-radius: 15%;
+  float: left;
+  
+}
+.box:hover {
+  box-shadow: 3px 3px 47px 10px rgba(0, 0, 0, 1);
+}
+
 
 #cp-tile-1 {
   grid-area: cp-1;
