@@ -80,6 +80,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  box-shadow:0 0 100px 20px #000000;
 }
 .navbar {
   display: flex;
