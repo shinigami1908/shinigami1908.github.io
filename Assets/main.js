@@ -1,3 +1,5 @@
+// back to top button
+
 mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
