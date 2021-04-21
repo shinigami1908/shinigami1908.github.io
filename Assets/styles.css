@@ -229,6 +229,7 @@ html {
   margin-bottom: 30px;
 }
 
+
 #about-me {
   justify-content: center;
   align-items: center;
@@ -364,3 +365,52 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+.academic-box{
+  margin-top: 5vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  height: 55vh;
+  background-color: white;
+  opacity: 70%;
+  border-radius: 15px;
+  padding: 6vh;
+}
+
+.text-academic{
+  font-weight: 450;
+  font-size: 2rem;
+  font-family: "Lucida Console", monospace;
+}
+
+#textbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+ /* .alignleft {
+  float: left;
+  width:33.33333%;
+  text-align:left;
+}
+.aligncenter {
+  float: left;
+  width:33.33333%;
+  text-align:center;
+}
+.alignright {
+ float: left;
+ width:33.33333%;
+ text-align:right;
+}​  */
+
+hr  
+{  
+width: 80%;  
+height: 2px;  
+background-color: gray;  
+margin-bottom: 6vh;  
+margin-right: auto;  
+margin-left: auto;  
+margin-top: 6vh;   
+} 
