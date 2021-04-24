@@ -381,6 +381,7 @@ a:active {
   opacity: 70%;
   border-radius: 15px;
   padding: 5vh;
+  white-space: nowrap;
 }
 
 .text-academic{
@@ -452,5 +453,14 @@ a:active {
   }
   .text-ab{
     font-size: 1rem;
+  }
+}
+
+@media(max-width: 1300px){
+  .text-academic{
+    font-size: 1.5rem;
+  }
+  .text-academic2{
+    font-size: 1.5rem;
   }
 }
