@@ -321,6 +321,9 @@ html {
 }
 
 .social {
+  display: grid;
+  min-height: 10vh;
+  box-sizing: border-box;
   text-align: center;
 }
 
