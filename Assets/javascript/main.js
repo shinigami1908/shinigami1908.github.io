@@ -30,6 +30,7 @@ function myFunction() {
 var music = new Audio('Assets/audio/astronomia.mp3');
 function playMusic(){
   music.play();
+  music.loop = true;
   }
 
   // hiding buttons
