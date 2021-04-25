@@ -27,8 +27,25 @@ function myFunction() {
 }
 
 // music button
-
+var music = new Audio('Assets/audio/astronomia.mp3');
 function playMusic(){
-  var music = new Audio('Assets/audio/astronomia.mp3');
   music.play();
   }
+
+  // hiding buttons
+
+  function hide() {
+    var div2 = document.getElementById("music");
+    div2.style.display = 'block';
+    var div = document.getElementById("musicclick");
+    div.style.display = 'none';
+}
+
+// toggling music
+
+function togglePlay() {
+  return music.paused ? music.play() : music.pause();
+};
+
+// toggling rotate
+
