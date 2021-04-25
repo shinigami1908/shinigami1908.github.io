@@ -49,3 +49,7 @@ function togglePlay() {
 
 // toggling rotate
 
+function togglerotate() {
+  var music = document.getElementById("music");
+  music.classList.toggle("rotating");
+}
