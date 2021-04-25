@@ -25,3 +25,10 @@ function myFunction() {
     x.className = "navbar";
   }
 }
+
+// music button
+
+function playMusic(){
+  var music = new Audio('Assets/audio/astronomia.mp3');
+  music.play();
+  }
