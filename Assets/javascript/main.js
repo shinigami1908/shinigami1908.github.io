@@ -27,7 +27,7 @@ function myFunction() {
 }
 
 // music button
-var music = new Audio('Assets/audio/astronomia.mp3');
+var music = new Audio('Assets/audio/music.mp3');
 function playMusic(){
   music.play();
   music.loop = true;

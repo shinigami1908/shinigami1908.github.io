@@ -565,10 +565,10 @@ a:active {
   width: 130px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  border-radius: 50%;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  border-radius: 52%;
+  -webkit-animation:spin 5s linear infinite;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
 }
 
 .paused {
