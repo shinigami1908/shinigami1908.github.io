@@ -42,15 +42,18 @@ function playMusic(){
     div.style.display = 'none';
 }
 
-// toggling music
+// toggling music and rotate
 
 function togglePlay() {
-  return music.paused ? music.play() : music.pause();
+  var pause = document.getElementById("music");
+  if(music.paused)
+  {
+    music.play()
+    pause.classList.remove("paused")
+  }
+  else
+  {
+    music.pause()
+    pause.classList.add("paused")
+  }
 };
-
-// toggling rotate
-
-function togglerotate() {
-  var music = document.getElementById("music");
-  music.classList.toggle("rotating");
-}

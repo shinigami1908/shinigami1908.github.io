@@ -566,12 +566,16 @@ a:active {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
-}
-
-.rotating{
   -webkit-animation:spin 4s linear infinite;
   -moz-animation:spin 4s linear infinite;
   animation:spin 4s linear infinite;
+}
+
+.paused {
+  -webkit-animation-play-state: paused !important; 
+  -moz-animation-play-state: paused !important; 
+  -o-animation-play-state: paused !important;
+   animation-play-state: paused !important;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
