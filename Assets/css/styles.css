@@ -245,13 +245,11 @@ html {
 }
 
 .text-small {
-  margin-top: 50px;
   font-weight: 200;
   font-size: 0.7rem;
   color: white;
-  text-align: center;
+  text-align: left;
   font-family: "Hamlin", sans-serif;
-  margin-bottom: 30px;
 }
 
 
@@ -450,18 +448,22 @@ a:active {
     float: right;
     display: block;
   }
+  .navbar a:hover{
+    background-color: #ddd;
+  }
 }
 
 @media(max-width: 1050px) {
   .navbar.responsive {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: left;
     position: fixed;
   }
   .navbar.responsive .icon {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 10;
   }
   .navbar.responsive a {
     float: none;
